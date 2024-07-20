@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cotizador de Planes Móviles</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Cotizador de Planes Móviles</h1>
+    <form id="cotizador-form">
+        <label for="tipo">Tipo de Línea:</label>
+        <select id="tipo" name="tipo">
+            <option value="portabilidad">Portabilidad</option>
+            <option value="nueva">Línea Nueva</option>
+        </select>
+        <br><br>
+        <label for="plan">Selecciona el Plan:</label>
+        <select id="plan" name="plan">
+            <option value="plan1">Plan 1 - $30</option>
+            <option value="plan2">Plan 2 - $40</option>
+            <option value="plan3">Plan 3 - $50</option>
+        </select>
+        <br><br>
+        <button type="button" onclick="cotizar()">Cotizar</button>
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
